@@ -21,7 +21,7 @@ app.get('/', (req, res) =>
 
     const palavra = 'teste'
 
-    const auth = true
+    const auth = false
 
     res.render('home', {user: user, palavra, auth})
 })
